@@ -13,7 +13,7 @@
         android:theme="@style/Theme.InterviewPrepare"
         tools:targetApi="31">
         <activity
-            android:name=".viewmodel.viewmodelfactory.MainActivity"
+            android:name=".viewmodel.savestatehandle.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
