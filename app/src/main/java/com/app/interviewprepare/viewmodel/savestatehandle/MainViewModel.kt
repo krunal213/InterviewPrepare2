@@ -50,4 +50,9 @@ class MainViewModel(private val savedStateHandle: SavedStateHandle) : ViewModel(
         this._email = _email
     }
 
+    override fun onCleared() {
+        super.onCleared()
+        println("onCleared")
+    }
+
 }
